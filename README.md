@@ -43,3 +43,28 @@ This is a sample web application built with ReactJS (frontend) and Node.js (back
 - PostgreSQL
 
 
+### Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/absalipande/apiRepo.git
+   cd apiRepo
+
+2. **Backend Setup:**
+
+  - cd backend    
+  - npm install
+
+  - Create a `.env` file in the `backend` directory with the following content:
+
+```PORT=3000
+DB_USER=your_db_user
+DB_HOST=localhost
+DB_NAME=your_db_name
+DB_PASSWORD=your_db_password
+DB_PORT=5432
+JWT_SECRET=your_jwt_secret
+FRONTEND_URL=http://localhost:3001
+IPINFO_TOKEN=your_ipinfo_token
+```
